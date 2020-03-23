@@ -1,0 +1,13 @@
+.jumbotron{
+	border-top: 25px solid white ;
+	background-color: #ecf0f1;
+}
+.img-thumbnail{
+	margin: 5px;
+}
+.navbar-expand-lg{
+	background-color: #2c3e50;
+}
+.navbar .navbar-expand-lg .navbar-light{
+color: white;
+}
