@@ -1,0 +1,11 @@
+<h1>Posts page</h1>
+<% for(var i=0;i<posts_data.length;i++) { %>
+    <p> <%= posts_data[i].title %> - <strong><%= posts_data[i].name %></strong> </p>
+<% } %>
+
+<form action="/addpost" method="post">
+    <h3>Add posts</h3>
+    <input type="text" name="author" id="author" placeholder="Enter author">
+    <input type="text" name="title" id="title" placeholder="Enter title">
+    <button type="submit">Submit</button>
+</form>
